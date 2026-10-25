@@ -1,0 +1,130 @@
+{
+  "projects": [
+    {
+
+      "id": "p1",
+      "title": "PORTFOLIO",
+      "planet": "assets/images/p1.png",
+      "category": { "fr": "Site vitrine", "en": "Showcase website" },
+      "description": {
+        "fr": "Mon portfolio de développeur, conçu comme une galaxie interactive : chaque projet est une planète qui tourne autour d'un soleil central. Le site est entièrement écrit en HTML, CSS et JavaScript, sans framework.",
+        "en": "My developer portfolio, designed as an interactive galaxy: each project is a planet orbiting a central sun. The site is written entirely in HTML, CSS and JavaScript, without any framework."
+      },
+      "objectives": {
+        "fr": "Présenter mon parcours, mes compétences et mes projets de façon originale tout en restant lisible pour un recruteur. Le site doit être facile à faire évoluer : ajouter un projet se fait dans un fichier de données, sans toucher au code.",
+        "en": "Present my background, skills and projects in an original way while staying readable for recruiters. The site must be easy to maintain: adding a project only requires editing a data file, without touching the code."
+      },
+      "features": {
+        "fr": [
+          "Galaxie interactive générée automatiquement à partir d'un fichier JSON",
+          "Disposition des planètes en orbites, adaptée au nombre de projets",
+          "Panneau de détail par projet (description, objectifs, technologies, liens)",
+          "Filtres par catégorie dans la liste des projets",
+          "Menu hamburger et affichage adapté aux téléphones et tablettes",
+          "Navigation au clavier et respect de la réduction des animations"
+        ],
+        "en": [
+          "Interactive galaxy generated automatically from a JSON file",
+          "Planets arranged in orbits, adapted to the number of projects",
+          "Detail panel for each project (description, objectives, technologies, links)",
+          "Category filters in the project list",
+          "Hamburger menu and layout adapted to phones and tablets",
+          "Keyboard navigation and support for reduced motion"
+        ]
+      },
+      "technologies": ["HTML", "CSS", "JavaScript", "SVG", "JSON"],
+      "image": ""
+    },
+    {
+  "id": "p2",
+  "title": "LISTE WEBTOON",
+  "planet": "assets/images/planete_03_geante_anneaux.png",
+  "category": { "fr": "Projet à venir", "en": "Upcoming project" },
+  "description": {
+    "fr": "Projet en préparation (projet personnel) : une application web qui regroupe en un seul endroit mes webtoons favoris et me permet de suivre ma progression de lecture, avec les nouveaux chapitres visibles directement dans ma liste.",
+    "en": "Project in preparation (personal project): a web application that gathers my favorite webtoons in one place and lets me track my reading progress, with new chapters shown directly in my list."
+  },
+  "objectives": {
+    "fr": "Centraliser le suivi de mes lectures au lieu de jongler entre plusieurs sites. Utilisation personnelle dans un premier temps, avec l'ambition de l'ouvrir ensuite à d'autres lecteurs. Ce projet me permet aussi de pratiquer l'intégration d'une API externe et la gestion de données.",
+    "en": "Centralize my reading tracking instead of juggling several websites. Personal use at first, with the ambition of opening it to other readers later. This project also lets me practice integrating an external API and managing data."
+  },
+  "features": {
+    "fr": [
+      "Liste centralisée des webtoons favoris",
+      "Suivi du dernier chapitre lu",
+      "Affichage des nouveaux chapitres sortis",
+      "Statut de lecture (en cours, terminé, à lire)",
+      "Notes personnelles et étiquettes par genre",
+      "Récupération des données sites externes"
+    ],
+    "en": [
+      "Centralized list of favorite webtoons",
+      "Tracking of the last chapter read",
+      "Display of newly released chapters",
+      "Reading status (reading, completed, to read)",
+      "Personal notes and genre tags",
+      "Data retrieval from external websites"
+    ]
+  },
+  "technologies": ["HTML", "CSS", "JavaScript", "API MangaUpdates"],
+  "github": "",
+  "image": ""
+  },
+  {
+    "id": "p3",
+    "title": "JOB BOARD",
+    "planet": "assets/images/planete_04_desert.png",
+    "category": { "fr": "Application Web", "en": "Web application" },
+    "description": {
+      "fr": "Une plateforme de recrutement web conçue pour connecter les entreprises, les recruteurs et les candidats, permettant la publication d'offres d'emploi et une gestion centralisée via un tableau de bord administrateur.",
+      "en": "A web recruitment platform designed to connect companies, recruiters and candidates, allowing job offers to be published and managed centrally through an administrator dashboard."
+    },
+    "objectives": {
+      "fr": "Structurer une application web complète avec une base de données relationnelle robuste, gérer finement les rôles et permissions des utilisateurs, et fluidifier la gestion des entreprises et des annonces d'emploi.",
+      "en": "Build a complete web application with a robust relational database, finely manage user roles and permissions, and streamline the management of companies and job listings."
+    },
+    "features": {
+      "fr": [
+        "Système d'authentification et gestion des rôles (Administrateur, Recruteur, Candidat)",
+        "Création, modification et suppression d'offres d'emploi (CDI, temps plein, etc.)",
+        "Gestion des entreprises et association avec les comptes recruteurs",
+        "Intégrité référentielle et suppression en cascade (liaison entreprises/annonces)",
+        "Tableau de bord d'administration sécurisé avec modales interactives en JavaScript",
+        "Interface utilisateur moderne et responsive"
+      ],
+      "en": [
+        "Authentication system and role management (Administrator, Recruiter, Candidate)",
+        "Creation, editing and deletion of job offers (permanent contract, full-time, etc.)",
+        "Company management and association with recruiter accounts",
+        "Referential integrity and cascade deletion (company/listing relationship)",
+        "Secure administration dashboard with interactive JavaScript modals",
+        "Modern, responsive user interface"
+      ]
+    },
+    "technologies": ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript", "HTML/CSS"],
+    "github": "",
+    "image": "assets/images/Pasted image.png"
+  }
+  ],
+  "skills": {
+    "Front-end": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap"
+    ],
+    "Back-end": [
+      "PHP",
+      "Java"
+    ],
+    "Bases": [
+      "MySQL"
+    ],
+    "Outils": [
+      "Git"
+    ],
+    "Autres compétences": [
+      { "fr": "Macros VBA (Excel)", "en": "VBA macros (Excel)" }
+    ]
+  }
+}

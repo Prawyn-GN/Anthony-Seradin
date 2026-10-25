@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Anthony Séradin — Développeur Web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><span aria-hidden="true"></span>Anthony SERADIN<small>Développeur FullStack</small></div>
+
+        <button id="burger" class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav id="menu" aria-label="Navigation principale">
+            <a href="#presentation" data-i18n="nav.presentation">Présentation</a>
+            <a href="#profil" data-i18n="nav.profil">Profil</a>
+            <a href="#competences" data-i18n="nav.skills">Compétences</a>
+            <a href="#projets" data-i18n="nav.projects">Expériences &amp; Projets</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
+            <button id="lang" class="lang" aria-label="Switch to English">EN</button>
+        </nav>
+    </header>
+    <main>
+        <div class="space">
+            <svg id="stars" aria-hidden="true"></svg>
+
+            <section class="hero" id="presentation" aria-label="Présentation">
+                <div class="avatar">
+                    <img src="assets/images/photo.jpg" alt="Portrait d’Anthony Séradin" onerror="this.remove()">
+                </div>
+                <div class="intro">
+                    <div class="kicker" data-i18n="hero.kicker">Bienvenue sur mon portfolio</div>
+                    <p class="profil-description" data-i18n="hero.text">Développeur fullstack en reconversion, en recherche d'une alternance à partir
+                        de janvier 2027. Chaque planète de cette galaxie est un de mes projets : cliquez pour l'explorer.</p>
+                    <a class="btn" href="#projets" data-i18n="hero.cta">Découvrir mes projets →</a>
+                </div>
+            </section>
+
+            <section class="zone-galaxie" aria-label="Galaxie de projets">
+                <svg id="galaxy" viewBox="0 0 1000 700" role="group" aria-label="Galaxie interactive de projets"></svg>
+            </section>
+        </div>
+
+        <section class="s" id="profil">
+
+            <section class="s" id="profil">
+                <h2 data-i18n="nav.profil">Profil</h2>
+                <div class="softskills">
+                    <h3 data-i18n="soft">Savoir-être</h3>
+                    <ul class="tags">
+                        <li data-i18n="equipe">Esprit d’équipe</li>
+                        <li data-i18n="Responsiveness">Réactivité</li>
+                        <li data-i18n="Initiative">Initiative</li>
+                        <li data-i18n="Adaptability">Adaptabilité</li>
+                        <li data-i18n="Autonomy">Autonomie</li>
+                        <li data-i18n="detail">Rigueur</li>
+                    </ul>
+                </div>
+                <p data-i18n="about.descript">Fort d'une expérience de plusieurs années en comptabilité et gestion en entreprise et en cabinet,
+                    j'ai choisi d'orienter ma carrière vers le développement informatique et les nouvelles technologies. 
+                    Actuellement en pré-MSC à Epitech Rennes, je suis à la recherche d'une alternance à compter de janvier 2027.
+                    Mon parcours m'a permis de développer une grande rigueur, une forte capacité d'adaptation, un esprit
+                    d'équipe ainsi qu'un esprit d'initiative que je mets aujourd'hui au service de projets informatiques.</p>
+            </section>
+
+            <section class="s" id="competences">
+                <h2 data-i18n="nav.skills">Compétences</h2>
+                <div class="cats" id="skills"></div>
+            </section>
+
+            <section class="s" id="projets">
+                <h2 data-i18n="nav.projects">Expériences &amp; Projets</h2>
+                <div class="filters" id="filters"></div>
+                <div class="plist" id="plist"></div>
+            </section>
+
+            <section class="s" id="contact">
+                <h2>Contact</h2>
+                <p>E-mail : <a href="mailto:anthony.seradin@epitech.eu">anthony.seradin@epitech.eu</a>
+                    <br>LinkedIn : <a href="https://www.linkedin.com/in/anthony-s%C3%A9radin-49a8823a4/">Mon Profil Linkedin</a>
+                    <br>GitHub : <a href="https://github.com/Prawyn-GN">Mon Profil GitHub</a>
+                    <br>CV : <a href="data/CV.pdf" download>Cliquez-ici</a>
+                </p>
+            </section>
+    </main>
+    <footer>© 2026 Anthony Séradin - Photo by <a
+            href="https://unsplash.com/@cyclens_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">William
+            Zhang</a> on <a
+            href="https://unsplash.com/photos/blue-and-white-starry-night-sky-hqKPgEVEc-8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </footer>
+
+
+    <aside id="panel" role="dialog" aria-modal="false" aria-labelledby="pt" tabindex="-1">
+        <button id="close" aria-label="Fermer le projet">✕</button>
+        <div id="pc"></div>
+    </aside>
+
+    <script src="js/utils.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/galaxy.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
